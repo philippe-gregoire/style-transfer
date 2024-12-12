@@ -15,14 +15,6 @@ User also should have account on IBM Cloud with active us-south region. In us-so
    - go to your COS instance in [IBM Cloud Dashboard](https://console.bluemix.net/dashboard),
    - in `Service credentials` tab, click on `New Credential` and add inline configuration parameter: `{"HMAC":true}`,
    - and click `Add`.
-
-   This configuration parameter will add section below to instance credentials which will be used later on,
-   ``` 
-        "cos_hmac_keys": {
-              "access_key_id": "722432c254bc4eaa96e05897bf2779e2",
-              "secret_access_key": "286965ac10ecd4de8b44306288c7f5a3e3cf81976a03075c"
-         }
-   ```
    
 ## Deployment 
 
